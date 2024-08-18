@@ -1,0 +1,12 @@
+name: "."
+title: "Research Diary"
+description: |
+  Research Diary
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
